@@ -53,6 +53,8 @@ nav ul li a{
  nav ul li a:hover{ 
     color: #f9004d;
     transition: .4s;
+    border-bottom: 2px solid #f9004d ;
+    transition: all .38s ease;
 
 
 }
@@ -183,6 +185,10 @@ button:hover{
     cursor: pointer;
 
 
+}
+button a{
+    text-decoration: none;
+    color: white;
 }
 .service{
     background:black;
@@ -338,7 +344,12 @@ footer p:nth-child(2){
 
 
 
-
+@media (max-width:800px) {
+    .hero{
+        width:100% ;
+    }
+    
+}
 
 
 
