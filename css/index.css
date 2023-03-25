@@ -345,14 +345,173 @@ footer p:nth-child(2){
 
 
 @media (max-width:800px) {
-    .hero{
-        width:100% ;
+    html{
+        width: 100%;
+       
+       
     }
+    body{
+        height: 100%;
+    }
+    .hero{
+        height: 90vh;
+    }
+  
+nav ul li{
     
+    display:inlineblock;
+    padding: 10px;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    padding-left: 15px;
+ 
+ 
+}
+nav{
+    display: inlineblock;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 1%;
+    padding-right: 6%;
 }
 
+.about-text h2{
+    /* color: white; */
+    font-size: 55px;
+    /* text-transform: capitalize; */
+    margin-bottom: 20px;
+    margin-left:15px ;
+}
+.about-text h5{
+
+    font-size: 21px;
+    margin-left: 15px;
+   
+}
+.about-text p{
+
+    font-size: 20px;
+  margin-left:15px ;
+
+}
+.title h2{
+    font-size: 55px;
+    padding-right: 350px;
+
+    }
 
 
+}
+
+@media (max-width:450px) {
+
+  html{
+        width: 100%;
+        /* float: none; */
+        
+    }
+     body{
+        height: 100%;
+        /* overflow-x: hidden;  */
+        
+    }
+    .hero{
+        width: 100%;
+        overflow-x: hidden;
+    }
+  
+nav ul li{
+    
+    display:block;
+    padding: 5px;
+    padding-block: 9.5px;
+    padding-bottom: 18px;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    padding-left: 5px;
+    /* width: 100%; */
+ 
+ 
+}
+
+nav{
+    display:block;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding-top: 25px;
+    padding-left: 7%;
+    padding-right: 6%;
+    /* height: 30px; */
+}
+
+.about-text h2{
+    /* color: white; */
+    font-size: 55px;
+    /* text-transform: capitalize; */
+    margin-bottom: 20px;
+    margin-left:15px ;
+}
+.about-text h5{
+
+    font-size: 21px;
+    margin-left: 15px;
+   
+}
+.about-text p{
+
+    font-size: 19px;
+  margin :13px;
+  padding-right: 135px;
+
+}
+.about img{
+    height: auto;
+    width: 390px;
+}
+.main{
+    display: block;
+}
+.title h2{
+    font-size: 35px;
+    padding-right: 760px;
+    align-items: center;
+
+    } 
+    .box{
+        display: block;
+        padding-left: 20px;
+    }
+    .contact-me p{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 25px;  
+        padding-left: 10px; 
+       }
+       footer p:nth-child(2){
+        color: white;
+        font-size: 17px;
+        width: 500px;
+        text-align: center;
+        line-height: 19px;
+        padding-left: 50px;
+        padding-right: 51.4px;
+    }
+    .content h1{
+        font-size: 24px;
+
+        
+    }
+    .content{
+        padding-top: 90px;
+    }
+  
+}
 
 
 
