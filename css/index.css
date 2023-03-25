@@ -347,16 +347,16 @@ footer p:nth-child(2){
 @media (max-width:800px) {
     html{
         width: 100%;
-        height: 206rem;
+        height: 217rem;
        
        
        
     }
     body{
         /* height: 100%; */
-        padding-left: 1px;
+        /* padding-left: 1px; */
         left: 0;
-        width: 140%;
+        width: 100%;
     }
     .hero{
         height: 90vh;
